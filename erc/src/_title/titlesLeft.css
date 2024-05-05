@@ -1,0 +1,41 @@
+.div-title {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 1000px;
+    gap: 10px;
+}
+
+.h2-cont {
+    width: auto;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'K2D', sans-serif;
+    color: #ccc;
+    margin: 0;
+}
+
+.h2-line {
+    width: 500px;
+    height: 1px;
+    background-color: #666;
+    margin-left: 5px;
+    /* Ajuste conforme necessário */
+}
+
+@media (max-width: 768px) {
+    .div-title {
+        width: 300px;
+        flex-direction: column;
+    }
+
+    .h2-cont {
+        width: auto;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .h2-line {
+        width: 100%;
+    }
+}

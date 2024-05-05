@@ -1,0 +1,22 @@
+.card {
+    display: flex;
+    align-items: center;
+
+}
+.caixa-foto{
+   display: flex;
+   background-color: #FF1D38;
+}
+.caixa-foto:hover{
+    background-color: transparent;
+    transition: 200ms;
+}
+.opacity{
+    opacity: 0.8;
+    height: 200px;
+}
+.opacity:hover{
+    scale: 105%;
+    opacity: 1;
+    transition: 200ms;
+}

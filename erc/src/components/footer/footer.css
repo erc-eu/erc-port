@@ -1,0 +1,22 @@
+
+
+.container-footer{
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.h2-footer{
+    font-size: 15px;
+    font-weight: 500;
+    color: gray;
+    font-family: 'Inconsolata', sans-serif;
+}
+.h2-footer:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    color: #FF1D38;
+}

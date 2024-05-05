@@ -1,0 +1,74 @@
+.container-certificades {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container-img {
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.container-certificades-names {
+    margin-top: 20px;
+}
+
+.text-certificades{
+    font-size: 17px;
+    font-weight: 400;
+    color: #9b9b9b;
+    font-family: "Inconsolata", monospace;
+}
+
+.text-link{
+    font-size: 17px;
+    font-weight: 400;
+    color: #FF1D38;
+    font-family: "Inconsolata", monospace;
+    text-decoration: none;
+}
+
+.text-certificades-titulo{
+    font-family: "Inconsolata", monospace;
+    font-size: 35px;
+    font-weight: 400;
+    color: #ccc;
+}
+
+.img-certificades {
+    width: 150px;
+    height: 150px;
+}
+
+@media (max-width: 768px) {
+    .container-certificades{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .container-certificades-names{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        font-size: 10px;
+    }
+    .text-certificades{
+        width: auto;
+    }
+    .text-link{
+        font-size: 12px;
+        
+    }
+    .text-certificades-titulo{
+        font-size: 20px;
+    }
+}
